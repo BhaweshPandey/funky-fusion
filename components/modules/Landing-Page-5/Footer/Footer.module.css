@@ -1,0 +1,43 @@
+.heading {
+    font-size: 32px;
+    /* color: #2F2F2F; */
+    font-weight: 600;
+}
+
+.footerLink {
+    text-decoration: none;
+    color: #6A6A6A;
+    @mixin dark{
+        color: #EEEE
+    }
+}
+
+
+.footerContent {
+    /* margin-top: 22px; */
+    color: #6A6A6A;
+    opacity: .9;
+    @mixin dark{
+        color: #EEEE
+    }
+}
+
+.iconStyle {
+    background-color: #D9D9D9;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+
+}
+
+.linkStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.policyLink {
+    text-decoration: none;
+    color: #6A6A6A;
+    
+}

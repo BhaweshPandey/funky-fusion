@@ -1,0 +1,61 @@
+.heading {
+    font-size: 26px;
+    /* color: #2F2F2F; */
+    font-weight: 600;
+
+}
+
+.mailIcon {
+    color: #CFCFCF;
+    width: 30px;
+    height: 30px
+}
+
+.input {
+    width: 250px;
+    height: 45px;
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;
+    margin-right: 12px;
+
+}
+
+.input::placeholder {
+    /* color: #2F2F2F; */
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.telegramIcon {
+    background-color: #35736E;
+    color: #FFFF;
+    font-weight: 400;
+    height: 40px;
+    padding: 3px;
+    border-radius: 5px;
+    width: 40px;
+
+}
+
+.sofaImg {
+    max-width: 500px;
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    /* @mixin dark{
+
+        filter: grayscale(100%);
+    } */
+}
+@media screen and (max-width:550px) {
+    .input{ 
+        width: 100%;
+        /* max-width: 440px; */
+    }
+    .submitBtn{
+        background-color: #35736E;
+        color: #FFFF;
+        /* width: 100%; */
+    }
+    
+}

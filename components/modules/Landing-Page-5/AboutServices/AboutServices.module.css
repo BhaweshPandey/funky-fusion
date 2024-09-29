@@ -1,0 +1,113 @@
+.boxStyle {
+    position: relative;
+    height: 500px;
+
+}
+
+/* .chair {
+    position: relative;
+    display: inline;
+    bottom: 60%;
+    left: 55%;
+} */
+
+.office {
+    position: absolute;
+    right: 4%;
+    top: 0;
+}
+
+.heading {
+    font-size: 30px;
+    /* color: #2F2F2F; */
+    font-weight: 600;
+    width: 350px;
+}
+
+.content {
+    /* width: 80%; */
+    margin-top: 22px;
+    /* color: #6A6A6A; */
+    opacity: .9;
+}
+
+.circleIcon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    /* color: #6A6A6A; */
+}
+
+.aboutServicePoint {
+    /* width: 80%; */
+    margin-top: 22px;
+    /* color: #6A6A6A; */
+    opacity: .9;
+}
+
+.exploreBtn {
+    margin-top: 35px;
+    background-color: #2F2F2F;
+    border-radius: 30px;
+    color: #FFFFFF;
+    height: 50px;
+    width: 130px;
+    border: solid 1px #FFFF
+}
+
+.productName {
+    /* color: #2F2F2F; */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.productDescription {
+    margin-top: 22px;
+    /* color: #6A6A6A; */
+    opacity: .9;
+}
+
+.readMoreBtn {
+    padding: 0;
+    background-color: transparent;
+    color: #2F2F2F;
+    @mixin dark{
+        color: #FFF
+    }
+    height: 50px;
+}
+@media screen and (max-width:660px) {
+ 
+    .chair{
+        left: 40%;
+        bottom:55% ;
+    }
+    .interior {
+        width: 20%;
+        border-radius: 5px;
+    }
+    .chairImage{
+        width: 170px;
+        height: 250px;
+    }
+    .officeImage{
+        width: 200px;
+        padding-top: 22px;
+    }
+
+}
+
+@media screen and (max-width:1200px) {
+    .interior {
+        width: 70%;
+        border-radius: 5px;
+    }
+
+    .heading {
+        margin-top: 33px;
+    }
+    .officeImage{
+
+    }
+}
+

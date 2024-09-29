@@ -1,0 +1,27 @@
+.heading{
+    font-size: 32px;
+    /* color: #2F2F2F; */
+    font-weight: 600;
+}
+.content{
+    font-size: 18px;
+    line-height: 2;
+    width: 90%;
+    /* color:#000000 */
+}
+.userName{
+    font-size: 20px;
+    /* color:#000000; */
+    /* margin-top: 12px; */
+}
+.userStatus{
+    /* color: #2F2F2F; */
+    /* opacity: ; */
+}
+.indicator{
+    /* background-color: #385D50; */
+    width: 8px;
+    margin: 0 10px;
+    height: 8px;
+    /* color: #fff; */
+}

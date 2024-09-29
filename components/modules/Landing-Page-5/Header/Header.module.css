@@ -1,0 +1,137 @@
+.header {
+  height: rem(56px);
+  margin-bottom: rem(120px);
+}
+
+.inner {
+  height: rem(56px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link {
+  display: block;
+  line-height: 1;
+  padding: rem(8px) rem(12px);
+  border-radius: var(--mantine-radius-sm);
+  text-decoration: none;
+  color: #000;
+  @mixin dark {
+    color: #fff;
+  }
+
+  .header {
+    background-color: #385d50;
+    height: 600px;
+    position: relative;
+    padding-top: 33px;
+    /* background-image: url(/demo/funky-fusion/image/couch-1@2x.png), url(/demo/funky-fusion/image/dots.webp); */
+    background-position:
+      center right,
+      95% 20%;
+    background-repeat: no-repeat;
+    background-size:
+      700px 520px,
+      200px 200px;
+  }
+
+  @media screen and (max-width: 812px) {
+    .header {
+      background-size:
+        100% 80%,
+        100px 100px;
+      background-position: center;
+    }
+  }
+
+  font-size: 18px;
+  font-weight: 500;
+
+  @mixin hover {
+    background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+  }
+
+  [data-mantine-color-scheme] &[data-active] {
+    /* background-color: var(--mantine-color-blue-filled); */
+    color: light-dark(var(--mantine-color-gray), var(--mantine-color-black));
+    border-bottom: solid 2px yellow;
+    border-radius: 0;
+  }
+}
+
+.icon {
+  color: #000;
+  @mixin dark {
+    color: #d9d9d9;
+  }
+  /* margin-right: 12px; */
+  cursor: pointer;
+}
+
+.headingLogo {
+  font-size: 34px;
+  /* color: #FFFFFF */
+}
+
+.subHeader {
+  background-color: #9edbc5;
+  height: 600px;
+  position: relative;
+  padding-top: 33px;
+  background-image: url(../../../../public/image/couch-1@2x.webp),
+    url(../../../../public/image/dots.webp);
+ 
+  background-repeat: no-repeat;
+  background-size:
+    700px 520px,
+    200px 200px;
+  @mixin dark {
+    background-color: #051f20;
+  }
+}
+/* #035956 */
+/* 184d47 */
+@media screen and (max-width: 812px) {
+  .subHeader {
+    background-size:
+      100% 80%,
+      100px 100px;
+    background-position: center;
+  }
+}
+
+.tagline {
+  font-weight: 600;
+
+  font-size: 6vmin;
+  width: 70%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .tagline {
+    width: 100%;
+    font-size: 8vmin;
+  }
+}
+
+.shopNowBtn {
+  background-color: #f9bf29;
+  color: #2f2f2f;
+  border-radius: 30px;
+  height: 50px;
+  width: 130px;
+}
+
+.exploreBtn {
+  background-color: transparent;
+  border-radius: 30px;
+  color: #000;
+  height: 50px;
+  width: 130px;
+  border: solid 1px #ffff;
+  @mixin dark {
+    color: #2f2f;
+  }
+}

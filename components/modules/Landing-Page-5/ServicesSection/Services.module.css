@@ -1,0 +1,49 @@
+.serviceName {
+    font-size: 19px;
+    font-weight: 600;
+    /* color: #2F2F2F; */
+    font-weight: 600;
+}
+
+.img{
+    @media (max-width: $mantine-breakpoint-xs) {
+        height: 450px;
+        width: 310px;
+    }
+}
+
+.serviceContent {
+    width: 250px;
+    margin-top: 22px;
+    /* color: #6A6A6A; */
+    opacity: .9;
+}
+
+.heading {
+    font-size: 30px;
+    /* color: #2F2F2F; */
+    font-weight: 600;
+}
+
+.subHeading {
+    /* width: 250px; */
+    margin-top: 22px;
+    color: #6A6A6A;
+    opacity: .9;
+}
+
+.dots {
+    position: relative;
+    right: 220px;
+
+}
+
+@media screen and (max-width: 1200px) {
+    .dots {
+        width: 100%;
+        max-width: 1200px;
+        right: 245px;
+        max-height: 500px;
+
+    }
+}

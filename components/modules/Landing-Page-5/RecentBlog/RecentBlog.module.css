@@ -1,0 +1,45 @@
+.postBtn {
+    background-color: transparent;
+    color: #2F2F2F;
+    @mixin dark{
+        color: #FFF
+    }
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-size: large;
+}
+
+.heading {
+    font-size: 32px;
+    /* color: #2F2F2F; */
+    font-weight: 600;
+}
+
+.name {
+    font-size: 18px;
+    /* color: #2F2F2F; */
+    font-weight: 600;
+    @media screen and (max-width:450px) {
+        color:black
+    }
+}
+
+.owner {
+    /* color: #2F2F2F; */
+    font-size: 16px;
+    font-weight: 500;
+    @media screen and (max-width:450px) {
+        color:black
+    }
+}
+
+.imageStyle {
+    border-radius: 15px;
+}
+@media  screen and (max-width:400px) {
+    .imageStyle{
+        width: 100%;
+        max-width: 400px;
+    }
+    
+}

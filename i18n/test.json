@@ -1,0 +1,28 @@
+{
+  "body": {
+    "poc": {
+      "title": "Crafted with excellent material.",
+      "desc": "Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done.",
+      "button2": "Explore",
+      "item1": "Nordic CHAIR",
+      "item2": "Kruzo Aero Chair",
+      "item3": "Ergonomic CHAIR"
+    },
+    "usp": {
+      "section1": {
+        "title": "Why Choose Us",
+        "desc": "Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done. the",
+        "item1": "Fast & Free Shipping",
+        "desc1": "Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was",
+        "item2": "Easy to Shop",
+        "item3": "24/7 Support",
+        "item4": "Fast & Free Shipping"
+      },
+      "section2": {
+        "title": "We help you make Modern Interior Design",
+        "desc": "Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done. the this is a long post for the text.`This small text has to be place here, since this is a place holder. You can also chane it.",
+        "desc_bullet": "Donec mattis porta eros,let aliquet finibus ri"
+      }
+    }
+  }
+}
